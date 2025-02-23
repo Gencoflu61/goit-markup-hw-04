@@ -366,6 +366,7 @@ img{
     stroke-width: 0;
     stroke: currentColor;
     fill: #f4f4fd;
+    list-style: none;
   }
 .social{
     display: block;
@@ -380,6 +381,7 @@ img{
 .icon-list{
     width: 40px;
     height: 40px;
+    list-style: none;
 }  
 .icon-link{
     width: 100%;
@@ -402,7 +404,7 @@ img{
 .icon-last{
     display: flex;
     gap: 16px;
-    
+    list-style: none;
 }
 .icon-last-list{
     width: 40px;
