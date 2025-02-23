@@ -1,0 +1,316 @@
+body{
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+}
+img{
+    display: block;
+}
+
+.sec-title,.section-title{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-decoration: underline;
+    text-align: center;
+}  
+.header-top{
+    background-color: #e7e9fc;
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    line-height: 1.17;  
+    border-bottom: 1px solid #e7e9fc;
+    
+}
+.header-c{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+/* nav bölümü */
+.nav-top{
+    display: flex;
+    align-items: center;
+}
+.nav-link{
+    display: flex;
+    gap: 40px;
+
+}
+.nav-link-body-medium{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    padding: 24px 0;
+
+}
+.nav-link-body-medium:hover,
+.nav-link-body-medium:focus{
+    color: #404bbf;
+}
+.nav-link-body-medium:active{
+    color: #404bbf;
+    text-decoration: underline;
+}
+.logo-link{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    line-height: 1.17;
+    color: #4d5ae5; 
+    text-transform: uppercase; 
+    text-decoration: none; 
+    margin-right: 76px;
+
+}
+.logo-link .logo-studio{
+    color: #2e2f42;
+}
+/*address bölümü*/
+.address-info{
+    font-style: normal;
+}
+.address-link{
+    display: flex;
+    gap: 40px;
+}
+.address-link-body-small{
+    font-style: normal;
+    color: #434455;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+
+}
+.address-link-body-small:hover,
+.address-link-body-small:active{
+    color: #404bbf;
+}
+.address-link-body-small:focus{
+    color: #404bbf;
+}
+/*Section 1.bölüm*/
+.sec-text{
+    background-color: #2e2f42;
+    padding: 188px 0;
+    background-size: 1900px 800px;
+    background-repeat:no-repeat ;
+    background-image: url("./img/main.jpg");
+    background-position: center;
+}
+.sec-title{
+    font-size: 56px; 
+    line-height: 1.07;
+    color:#ffffff;
+    max-width: 496px;
+}
+.button-text{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #4d5ae5;
+    color: #ffffff;
+    text-align: center;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: #4d5ae5;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+.button-text:hover,
+.button-text:focus{
+    background-color:#404bbf;
+    color: #ffffff;
+    cursor: pointer;
+}
+/*Section 2-3-4 bölüm*/
+.sec-top{
+    padding: 120px 0;
+    
+}
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+}
+.section-title{
+    font-size: 36px;
+    line-height: 1.11;
+    color: #2e2f42;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+.section-text{
+    background-color: #f4f4fd;
+    padding: 120px 0;
+}
+.features-item{
+    flex-basis: calc((100% - 72px) / 4);
+}
+.features-title{
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+    color:#2e2f42;
+    margin-bottom: 8px;
+   
+}
+.features-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    
+}
+.features-list{
+        display: flex;
+        gap: 24px;
+        list-style: none;
+        padding: 0;
+        margin-top: 72px;
+        margin-right: 24px;
+}
+.features-logo{
+    padding: 20px;
+    text-align: center;
+    background-color: #8e8f99;
+    width:264px;
+    height: 112px;
+    border-radius: 4px;
+    border: 1px;
+    
+}
+.team-list{
+    display: flex;
+    gap: 24px;
+    list-style: none;
+}
+.team-members {
+    background-color: #ffffff; 
+    flex-basis: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+.team-bar{
+    padding: 32px 0;
+}
+.team-title{
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+    color:#2e2f42;
+    margin-bottom: 8px;
+    text-align: center;
+}
+.team-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-align: center;
+}
+.sec-port{
+    padding: 120px 0;
+}
+.port-list{
+    display: flex;
+    column-gap: 24px;
+    row-gap: 48px;
+    flex-wrap: wrap;
+    list-style: none;
+    
+}
+.port-bar{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+   
+}
+.port-item {
+    background-color: #ffffff; 
+    flex-basis: calc((100% - 72px) / 4);
+    
+}
+/*Footer bölümü*/
+.page-footer {
+    background-color: #2e2f42;
+    padding: 100px 0;
+}
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    line-height: 1.17;
+    color: #4d5ae5; 
+    text-decoration: none; 
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.footer-logo-part {
+    color: #f4f4fd; 
+}
+
+.footer-text {
+    color: #f4f4fd;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    max-width: 264px;
+}
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+.social{
+    display: block;
+    text-align: center;
+}
+.icon-t{
+    display: block;
+    text-align: center;
+    padding-top: 8px;
+    gap: 16px;
+}
