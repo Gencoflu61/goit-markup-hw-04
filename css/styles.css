@@ -374,9 +374,9 @@ img{
 }
 .icon-t{
     display: flex;
-    gap: 24;
     justify-content: center;
     list-style: none;
+    gap: 40;
 }
 .icon-list{
     width: 40px;
@@ -387,7 +387,7 @@ img{
     width: 100%;
     height: 100%;
     background-color: #4d5ae5;  
-    border-radius: %50;
+    border-radius: 50½;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -416,7 +416,7 @@ img{
     width: 100%;
     height: 100%;
     background-color: #4d5ae5;  
-    border-radius: %50;
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
